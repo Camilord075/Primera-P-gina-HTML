@@ -15,18 +15,28 @@ body {
 
 }
 
-a:link, a:visited {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #eef4ed;
-    background-color: #8da9c4;
-    padding: 10px 10px;
-    text-decoration: none;
-    display: inline-block;
-    border: 25px solid #0b2545;
-    
+ul {
+    list-style-type: none;
+    background-color:  #8da9c4;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
-a:hover, a:active {
+li {
+    float: left;
+}
+
+li a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    color: #eef4ed;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+
+li a:hover, a:active {
     background-color: #134074;
     text-decoration: underline;
 }
